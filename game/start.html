@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	html,body{
+		margin: 0;
+		height: 100%;
+	}
+	.box{
+		height: 100%;
+		width: 100%;
+		background: url(images/index.png) no-repeat center center;
+		background-size: cover;
+		position: absolute;
+	}
+	img{
+		width: 300px;
+		display: block;
+		position: absolute;
+		top:300px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="images/start.png" alt="">
+	</div>
+</body>
+<script>
+	var img=document.getElementsByTagName('img')[0];
+	img.onclick=function(){
+		location.assign("game.html")
+	}
+</script>
+</html>

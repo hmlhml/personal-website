@@ -1,0 +1,15 @@
+body,ul,ol,li,dl,dd,dt,p,input,h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Arial,"微软雅黑";
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+/*图片被a标签包裹时，在ie8一下会出现边框*/
+img{
+	border:none;
+}
